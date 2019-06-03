@@ -1,4 +1,7 @@
 body {
-    text-align: center
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    background-color: #D980FA;
+    margin-top: 20px;
 }
-
