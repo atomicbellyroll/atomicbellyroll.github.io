@@ -1,4 +1,4 @@
-const API_KEY = 'ZXebHwXlTPHZLvZ6AFYJcwvuPpMObX2v0zQ4Ia5EFHHSEINmcu'
+const API_KEY = 'YUlW2IuFR2XZR7nZmYoZIbHbUHqkdlpYMOpyX4IkqowW0aE64A'
 let button_div = document.getElementById('buttons')
 let gallery_div = document.getElementById('gallery')
 
