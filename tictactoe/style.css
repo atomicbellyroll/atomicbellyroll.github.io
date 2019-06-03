@@ -1,10 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #D980FA;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+}
+
+body h1 {
+  margin-top: 70px;
+}
+
 #board div {
   float: left;
   box-sizing: border-box;
   height: 120px;
   width: 120px;
-  border: solid 3px black;
-  display: inline-block;
+  border: solid 3px white;
+  /*display: inline-block; */
+  align-items: center;
   margin: 3px;
   font-size: 3em;
   text-align: center;
@@ -12,13 +27,13 @@
   vertical-align: middle;
   cursor: pointer;
   user-select: none;
-}
-
-#board div:nth-child(3n+1) {
+ }
+ 
+ #board div:nth-child(3n+1) {
   clear: both;
-}
+ }
 
-.box:hover {
+ .box:hover {
   animation: jelly 0.5s;
 }
 
@@ -36,4 +51,16 @@
   75% {
     transform: scale(0.95, 1.05);
   }
+}
+
+#reset {
+text-align: center;
+font-size: 20px;
+font-family: 'Amatic SC', cursive;
+border: 3px solid white;
+background-color: #D980FA;
+color: white;
+height: 50px;
+width: 100px;
+margin: 5px;
 }
