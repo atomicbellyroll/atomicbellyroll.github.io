@@ -70,6 +70,13 @@ div .yahoo {
     color: #D980FA;
 }
 
+img #yahoo-img {
+    border-style: solid;
+    border-radius: 25%;
+    border-width: 2px;
+    border-color: #D980FA;
+}
+
 /*Contact Me Buttons*/
 
 button {
