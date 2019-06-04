@@ -70,11 +70,16 @@ footer {
     font-family: 'Arima Madurai', cursive;
 }
 
+div .yahoo {
+    align: center;
+}
+
 .yahoo {
     height: 90px;
     text-align: center;
     border: 2px solid #D980FA;
     border-radius: 30px;
+    color: #D980FA;
 }
 /*Contact Me Buttons*/
 
