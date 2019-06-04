@@ -11,6 +11,7 @@
     margin: 6px;
     min-height: 300px;
     vertical-align: top;
+    horizontal-align: left;
     box-shadow: 0.5px 5px 10px 2px #D980FA(0, 0, 0, 0.4);
 }
 
