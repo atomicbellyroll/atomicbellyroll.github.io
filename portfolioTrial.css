@@ -75,11 +75,14 @@ div .yahoo {
 }
 
 img .yahoo-img {
-    height: 90px;
+    max-width: 90px;
+    max-height: 90px;
     text-align: center;
     border: 2px solid #D980FA;
     border-radius: 30px;
     color: #D980FA;
+    padding: 5px;
+    
 }
 /*Contact Me Buttons*/
 
