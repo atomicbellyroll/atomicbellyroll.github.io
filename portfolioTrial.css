@@ -72,9 +72,9 @@ footer {
 
 .yahoo {
     height: 90px;
-    display: inline-block;
     text-align: center;
     border: 2px solid #D980FA;
+    border-radius: 30px;
 }
 /*Contact Me Buttons*/
 
