@@ -70,6 +70,12 @@ footer {
     font-family: 'Arima Madurai', cursive;
 }
 
+.yahoo {
+    height: 90px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #D980FA;
+}
 /*Contact Me Buttons*/
 
 button {
@@ -165,4 +171,5 @@ button {
 .hidden {
     display: none;
 }
+
 
