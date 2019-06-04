@@ -1,8 +1,7 @@
-body {
-    background-image: url(./bananas.png);
-    opacity: 100%
-}
 
+body {
+    font-family: 'Arima Madurai', cursive;
+}
 
 #jumbo {
     background-image: url(./glitterbanner.gif);
@@ -59,7 +58,8 @@ body {
 footer {
     text-align: center;
     color:#D980FA;  
-    font-family: Source Sans Pro; 
+    background-color: #FFDCF3;
+    font-weight: bold;
 }
 
 /*Contact Me Buttons*/
@@ -100,6 +100,8 @@ button {
 /*lightbox*/
 .snippets-container h2{
     text-align: center;
+    background-image: url(./bananas.png);
+    opacity: 100%
 }
 
 .gallery-item {
@@ -156,6 +158,3 @@ button {
     display: none;
 }
 
-footer {
-    background-color: #FFDCF3;
-}
