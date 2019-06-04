@@ -18,11 +18,11 @@ function hideImage(event) {
     lightBox.classList.add('hidden')
 }
 
+//hide lightbox when close button is clicked
+closeButton.onclick = hideImage
+
 //for every gallery item, set onclick handler to show image
 for (let i = 0; i < galleryItems.length; i++) {
     let item = galleryItems[i]
     item.onclick = showImage
 }
-
-//hide lightbox when close button is clicked
-closeButton.onclick = hideImage
