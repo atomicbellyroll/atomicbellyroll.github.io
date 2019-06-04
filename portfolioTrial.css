@@ -5,6 +5,8 @@ body {
     opacity: 100%;
 }
 
+/* jumbotron */
+
 #jumbo {
     background-image: url(./glitterbanner.gif);
     background-color: #FECEE1;
@@ -14,8 +16,8 @@ body {
     font-family: 'Arima Madurai', cursive;
 }
 
-h2 {
-    font-size: 75%;
+h3 .display-4 {
+    font-size: 300%;
 }
 
 /* home button */
@@ -46,12 +48,6 @@ h2 {
   .home:hover::before, .home:hover::after {
     transform: translateX(-50%) scaleX(1);
   }
-  
-/*jumbotron*/
-
-.display-4 {
-    font-size: 300%;
-}
 
 .dropdown-item {
     color: #D980FA;
