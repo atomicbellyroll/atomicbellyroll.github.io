@@ -1,6 +1,8 @@
 
 body {
     font-family: 'Arima Madurai', cursive;
+    background-image: url(./bananas.png);
+    opacity: 100%;
 }
 
 #jumbo {
@@ -10,6 +12,7 @@ body {
     color: white;
     opacity: .80;
     font-family: 'Arima Madurai', cursive;
+    font-size: 75%
 }
 
 /* home button */
