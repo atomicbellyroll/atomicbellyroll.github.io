@@ -74,15 +74,19 @@ div .yahoo {
     color: #D980FA;
 }
 
-#yahoo-img img {
+a img #yahoo-img {
     width: 80px;
     height: 80px;
     border: 2px solid #D980FA;
     border-radius: 30px;
     color: #D980FA;
-    padding: 5px;
-    
+    padding: 5px;    
 }
+
+.img-thumbnail {
+    width: 50%;
+}
+
 /*Contact Me Buttons*/
 
 button {
