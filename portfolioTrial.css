@@ -9,6 +9,7 @@ body {
     text-align: center;
     color: white;
     opacity: .80;
+    font-family: 'Arima Madurai', cursive;
 }
 
 /* home button */
@@ -60,6 +61,7 @@ footer {
     color:#D980FA;  
     background-color: #FFDCF3;
     font-weight: bold;
+    font-family: 'Arima Madurai', cursive;
 }
 
 /*Contact Me Buttons*/
