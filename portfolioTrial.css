@@ -97,4 +97,61 @@ button {
     transform: translateX(200%) rotate(35deg);
   }
 
+/*lightbox*/
+.snippets-container h2{
+    text-align: center;
+}
+
+.gallery-item {
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    border: 1px solid #D980FA;
+    border-radius: 4px;
+    margin: 6px;
+    min-height: 300px;
+    vertical-align: top;
+    horizontal-align: left;
+    box-shadow: 0.5px 5px 10px 2px #D980FA(0, 0, 0, 0.4);
+}
+
+.gallery-item img{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.gallery-item .caption{
+    display: none;
+}
+
+.lightbox {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+
+.lightbox-content {
+    display: inline-block;
+}
+
+.lightbox-close {
+    float: right;
+}
+
+.lightbox a{
+    color: white;
+}
+
+.lightbox img{
+    max-height: 80vh;
+}
+
+.hidden {
+    display: none;
+}
   
