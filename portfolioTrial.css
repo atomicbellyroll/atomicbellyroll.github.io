@@ -64,13 +64,12 @@ footer {
 }
 
 div .yahoo {
-    align: center;
+    text-align: center;
 }
 
-.yahoo-img img {
+#yahoo-img img {
     max-width: 90px;
     max-height: 90px;
-    text-align: center;
     border: 2px solid #D980FA;
     border-radius: 30px;
     color: #D980FA;
