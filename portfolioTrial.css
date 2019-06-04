@@ -16,10 +16,6 @@ body {
     font-family: 'Arima Madurai', cursive;
 }
 
-h4 .display-4 {
-    font-size: 75%;
-}
-
 /* home button */
 .home {
     position: relative;
