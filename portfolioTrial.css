@@ -105,7 +105,7 @@ button {
 .gallery-item {
     display: inline-block;
     text-align: center;
-    background-color: #CEFEDE;
+    background-color: #FECEEE;
     padding: 14px;
     border: 1px solid #D980FA;
     border-radius: 4px;
@@ -155,4 +155,7 @@ button {
 .hidden {
     display: none;
 }
-  
+
+footer {
+    background-color: #FFDCF3;
+}
