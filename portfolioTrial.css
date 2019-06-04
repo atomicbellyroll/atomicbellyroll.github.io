@@ -16,7 +16,6 @@ body {
     font-family: 'Arima Madurai', cursive;
 }
 
-
 /* home button */
 .home {
     position: relative;
@@ -69,15 +68,6 @@ div .yahoo {
 
 .text-center {
     color: #D980FA;
-}
-
-#yahoo-img a img{
-    width: 80px;
-    height: 80px;
-    border: 2px solid #D980FA;
-    border-radius: 30px;
-    color: #D980FA;
-    padding: 5px;    
 }
 
 /*Contact Me Buttons*/
