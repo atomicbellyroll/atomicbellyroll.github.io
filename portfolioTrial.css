@@ -67,6 +67,10 @@ div .yahoo {
     text-align: center;
 }
 
+.text-center {
+    color: #D980FA;
+}
+
 #yahoo-img img {
     max-width: 90px;
     max-height: 90px;
